@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URl = "http://localhost:8000/predict"
+API_URl = "https://insurance-premium-category-predictor-jajs.onrender.com/health"
 
 st.title("Insurance premium category predictor")
 st.markdown("enter your details below: ")
